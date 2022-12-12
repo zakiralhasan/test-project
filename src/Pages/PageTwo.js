@@ -61,8 +61,8 @@ const PageTwo = () => {
                   className="select select-bordered w-full max-w-xs"
                 >
                   {sectorData &&
-                    sectorData.map((data) => (
-                      <option key={data.id}>{data.name}</option>
+                    sectorData?.map((data) => (
+                      <option key={data?.id}>{data?.name}</option>
                     ))}
                 </select>
               </div>

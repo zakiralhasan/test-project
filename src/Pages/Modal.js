@@ -17,8 +17,8 @@ const Modal = () => {
             Stored name and sector given below.
           </h3>
           <div className="my-4">
-            <p ><span className="font-bold">Name:</span> {modalData.name}</p>
-            <p ><span className="font-bold">Sector:</span> {modalData.sector}</p>
+            <p ><span className="font-bold">Name:</span> {modalData?.name}</p>
+            <p ><span className="font-bold">Sector:</span> {modalData?.sector}</p>
           </div>
         </div>
       </div>
